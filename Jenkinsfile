@@ -1,7 +1,7 @@
 pipeline{
 	    agent{
 	        label {
-	            label "job2"
+	            label "job3"
 	            
 	        }
 	    }
@@ -19,7 +19,7 @@ pipeline{
 	            steps{
 	                sh '''
 	                sudo chmod -R 777 /var/www/html
-	                echo "This is Branch -2 Test web appliation" > /var/www/html/index.html
+	                echo "This is Branch -3 Test web appliation" > /var/www/html/index.html
 	                '''
 	            }
 	         }            
